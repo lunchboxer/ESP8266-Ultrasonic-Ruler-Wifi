@@ -90,7 +90,6 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t *payload,
 }
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
   Serial.println();
   Serial.print("Configuring access point...");
